@@ -33,14 +33,14 @@
 #pragma mark - Lazy Loader
 - (NSArray *)titleArray {
     if (!_titleArray) {
-        _titleArray = @[@"KVO", @"FBKVO", @"RAC"];
+        _titleArray = @[@"Delegate",@"Block",@"Notification",@"KVO", @"FBKVO", @"RAC"];
     }
     return _titleArray;
 }
 
 - (NSArray *)subTitleArray {
     if (!_subTitleArray) {
-        _subTitleArray = @[@"MVVM Using KVO", @"MVVM Using facebook's KVOController", @"MVVM Using Reactivie-Cocoa"];
+        _subTitleArray = @[@"MVVM Using Delegate",@"MVVM Using Block",@"MVVM Using Notification",@"MVVM Using KVO", @"MVVM Using facebook's KVOController", @"MVVM Using Reactivie-Cocoa's ReactiveObjC"];
     }
     return _subTitleArray;
 }
@@ -118,11 +118,26 @@ static NSString *cellReuseIdentifier = @"MVVMCellIdentifier";
             break;
         case 1:
         {
+            
+        }
+            break;
+        case 2:
+        {
+            
+        }
+            break;
+        case 3:
+        {
+            
+        }
+            break;
+        case 4:
+        {
             ClockViewController *vc = [[ClockViewController alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
-        case 2:
+        case 5:
         {
             
         }

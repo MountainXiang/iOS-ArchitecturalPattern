@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50506E939D72FE7E4CB6CBFA /* libPods-iOS_Architecture_OC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD37351FA1F36F0B72512E83 /* libPods-iOS_Architecture_OC.a */; };
+		7ACF062496C10ED652337BD7 /* libPods-iOS_Architecture_OCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE112C248950E18A758A7FF2 /* libPods-iOS_Architecture_OCTests.a */; };
 		AA29657720EA270100745ECE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA29657620EA270100745ECE /* AppDelegate.m */; };
 		AA29657A20EA270100745ECE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA29657920EA270100745ECE /* ViewController.m */; };
 		AA29657D20EA270100745ECE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA29657B20EA270100745ECE /* Main.storyboard */; };
@@ -23,14 +25,13 @@
 		AA94345C20EB524C00C242FD /* Clock.m in Sources */ = {isa = PBXBuildFile; fileRef = AA94345A20EB524B00C242FD /* Clock.m */; };
 		AA94346120EB526700C242FD /* ClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA94345E20EB526600C242FD /* ClockView.m */; };
 		AA94346220EB526700C242FD /* ClockLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA94345F20EB526600C242FD /* ClockLayer.m */; };
-		AA94346A20EB52D400C242FD /* NSObject+FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA94346620EB52D300C242FD /* NSObject+FBKVOController.m */; };
-		AA94346B20EB52D400C242FD /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA94346720EB52D300C242FD /* FBKVOController.m */; };
-		AA94346C20EB52D400C242FD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA94346820EB52D300C242FD /* Info.plist */; };
 		AA94347020EB548300C242FD /* ClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA94346F20EB548300C242FD /* ClockViewController.m */; };
 		AA94347420EB552200C242FD /* MVVMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA94347220EB552200C242FD /* MVVMTableViewController.m */; };
 		AA94347520EB552200C242FD /* MVVMTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA94347320EB552200C242FD /* MVVMTableViewController.xib */; };
 		AA94347720EB59F700C242FD /* MVC.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA94347620EB59F700C242FD /* MVC.bundle */; };
 		AA94347A20EB5ED300C242FD /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA94347920EB5ED300C242FD /* BaseNavigationController.m */; };
+		AA94349320EBA8C000C242FD /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA94349220EBA8C000C242FD /* LoginViewModel.m */; };
+		ACAB5FB422D14C724B5C633B /* libPods-iOS_Architecture_OCUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7920F064A371555480F23F56 /* libPods-iOS_Architecture_OCUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D18071C50856701B048E5FF /* Pods-iOS_Architecture_OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Architecture_OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Architecture_OC/Pods-iOS_Architecture_OC.debug.xcconfig"; sourceTree = "<group>"; };
+		38A194DF2B4E212A631BDBCE /* Pods-iOS_Architecture_OCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Architecture_OCUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Architecture_OCUITests/Pods-iOS_Architecture_OCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E8A06B0DA8D4FA9773AA46A /* Pods-iOS_Architecture_OCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Architecture_OCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Architecture_OCTests/Pods-iOS_Architecture_OCTests.release.xcconfig"; sourceTree = "<group>"; };
+		7920F064A371555480F23F56 /* libPods-iOS_Architecture_OCUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS_Architecture_OCUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		792F641989E73A2EB2FBD43A /* Pods-iOS_Architecture_OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Architecture_OC.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Architecture_OC/Pods-iOS_Architecture_OC.release.xcconfig"; sourceTree = "<group>"; };
 		AA29657220EA270100745ECE /* iOS_Architecture_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Architecture_OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA29657520EA270100745ECE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AA29657620EA270100745ECE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,12 +87,6 @@
 		AA94345E20EB526600C242FD /* ClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockView.m; sourceTree = "<group>"; };
 		AA94345F20EB526600C242FD /* ClockLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockLayer.m; sourceTree = "<group>"; };
 		AA94346020EB526600C242FD /* ClockLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockLayer.h; sourceTree = "<group>"; };
-		AA94346420EB52D300C242FD /* KVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOController.h; sourceTree = "<group>"; };
-		AA94346520EB52D300C242FD /* FBKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKVOController.h; sourceTree = "<group>"; };
-		AA94346620EB52D300C242FD /* NSObject+FBKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FBKVOController.m"; sourceTree = "<group>"; };
-		AA94346720EB52D300C242FD /* FBKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKVOController.m; sourceTree = "<group>"; };
-		AA94346820EB52D300C242FD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA94346920EB52D300C242FD /* NSObject+FBKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FBKVOController.h"; sourceTree = "<group>"; };
 		AA94346D20EB536000C242FD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		AA94346E20EB548300C242FD /* ClockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockViewController.h; sourceTree = "<group>"; };
 		AA94346F20EB548300C242FD /* ClockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockViewController.m; sourceTree = "<group>"; };
@@ -96,6 +96,12 @@
 		AA94347620EB59F700C242FD /* MVC.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MVC.bundle; sourceTree = "<group>"; };
 		AA94347820EB5ED300C242FD /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		AA94347920EB5ED300C242FD /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		AA94349120EBA8C000C242FD /* LoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		AA94349220EBA8C000C242FD /* LoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
+		AD37351FA1F36F0B72512E83 /* libPods-iOS_Architecture_OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS_Architecture_OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA8B378ECA5CE0E048600739 /* Pods-iOS_Architecture_OCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Architecture_OCUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Architecture_OCUITests/Pods-iOS_Architecture_OCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DC153DA591156352BAC98F4E /* Pods-iOS_Architecture_OCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Architecture_OCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Architecture_OCTests/Pods-iOS_Architecture_OCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE112C248950E18A758A7FF2 /* libPods-iOS_Architecture_OCTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS_Architecture_OCTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50506E939D72FE7E4CB6CBFA /* libPods-iOS_Architecture_OC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ACF062496C10ED652337BD7 /* libPods-iOS_Architecture_OCTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,12 +125,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACAB5FB422D14C724B5C633B /* libPods-iOS_Architecture_OCUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		677CF75CC3A8FB1FCAF391AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD37351FA1F36F0B72512E83 /* libPods-iOS_Architecture_OC.a */,
+				EE112C248950E18A758A7FF2 /* libPods-iOS_Architecture_OCTests.a */,
+				7920F064A371555480F23F56 /* libPods-iOS_Architecture_OCUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AA29656920EA26FF00745ECE = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +149,8 @@
 				AA29658D20EA270300745ECE /* iOS_Architecture_OCTests */,
 				AA29659820EA270300745ECE /* iOS_Architecture_OCUITests */,
 				AA29657320EA270100745ECE /* Products */,
+				DEE1113CFDEDFB3222E7635B /* Pods */,
+				677CF75CC3A8FB1FCAF391AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -257,6 +278,9 @@
 		AA2965AF20EA275100745ECE /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				AA94347E20EB694D00C242FD /* Delegate */,
+				AA94347D20EB694300C242FD /* Block */,
+				AA94347F20EB695600C242FD /* Notification */,
 				AA94345120EB4F1F00C242FD /* KVO */,
 				AA94345220EB4F3700C242FD /* FBKVO */,
 				AA94345320EB4F6800C242FD /* RAC */,
@@ -301,7 +325,6 @@
 		AA94345220EB4F3700C242FD /* FBKVO */ = {
 			isa = PBXGroup;
 			children = (
-				AA94346320EB52D300C242FD /* FBKVOController */,
 				AA94345420EB4FC300C242FD /* Model */,
 				AA94345620EB4FC300C242FD /* View */,
 				AA94345520EB4FC300C242FD /* ViewModel */,
@@ -365,21 +388,116 @@
 		AA94345920EB4FCC00C242FD /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				AA94349120EBA8C000C242FD /* LoginViewModel.h */,
+				AA94349220EBA8C000C242FD /* LoginViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		AA94346320EB52D300C242FD /* FBKVOController */ = {
+		AA94347D20EB694300C242FD /* Block */ = {
 			isa = PBXGroup;
 			children = (
-				AA94346420EB52D300C242FD /* KVOController.h */,
-				AA94346520EB52D300C242FD /* FBKVOController.h */,
-				AA94346720EB52D300C242FD /* FBKVOController.m */,
-				AA94346920EB52D300C242FD /* NSObject+FBKVOController.h */,
-				AA94346620EB52D300C242FD /* NSObject+FBKVOController.m */,
-				AA94346820EB52D300C242FD /* Info.plist */,
+				AA94348420EB69B700C242FD /* Model */,
+				AA94348520EB69B700C242FD /* View */,
+				AA94348320EB69B700C242FD /* ViewModel */,
 			);
-			path = FBKVOController;
+			path = Block;
+			sourceTree = "<group>";
+		};
+		AA94347E20EB694D00C242FD /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				AA94348220EB69AE00C242FD /* Model */,
+				AA94348120EB69AE00C242FD /* View */,
+				AA94348020EB69AE00C242FD /* ViewModel */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		AA94347F20EB695600C242FD /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				AA94348620EB6A3C00C242FD /* Model */,
+				AA94348820EB6A3C00C242FD /* View */,
+				AA94348720EB6A3C00C242FD /* ViewModel */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		AA94348020EB69AE00C242FD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AA94348120EB69AE00C242FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AA94348220EB69AE00C242FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA94348320EB69B700C242FD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AA94348420EB69B700C242FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA94348520EB69B700C242FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AA94348620EB6A3C00C242FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA94348720EB6A3C00C242FD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AA94348820EB6A3C00C242FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DEE1113CFDEDFB3222E7635B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D18071C50856701B048E5FF /* Pods-iOS_Architecture_OC.debug.xcconfig */,
+				792F641989E73A2EB2FBD43A /* Pods-iOS_Architecture_OC.release.xcconfig */,
+				DC153DA591156352BAC98F4E /* Pods-iOS_Architecture_OCTests.debug.xcconfig */,
+				3E8A06B0DA8D4FA9773AA46A /* Pods-iOS_Architecture_OCTests.release.xcconfig */,
+				38A194DF2B4E212A631BDBCE /* Pods-iOS_Architecture_OCUITests.debug.xcconfig */,
+				DA8B378ECA5CE0E048600739 /* Pods-iOS_Architecture_OCUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -389,9 +507,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA29659E20EA270300745ECE /* Build configuration list for PBXNativeTarget "iOS_Architecture_OC" */;
 			buildPhases = (
+				052D26B8979D7EE7812E9897 /* [CP] Check Pods Manifest.lock */,
 				AA29656E20EA270100745ECE /* Sources */,
 				AA29656F20EA270100745ECE /* Frameworks */,
 				AA29657020EA270100745ECE /* Resources */,
+				3B33AE94D8A1AE65244044A3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -406,6 +526,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA2965A120EA270300745ECE /* Build configuration list for PBXNativeTarget "iOS_Architecture_OCTests" */;
 			buildPhases = (
+				F5D246D98A185CF78BB96E61 /* [CP] Check Pods Manifest.lock */,
 				AA29658620EA270300745ECE /* Sources */,
 				AA29658720EA270300745ECE /* Frameworks */,
 				AA29658820EA270300745ECE /* Resources */,
@@ -424,6 +545,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA2965A420EA270300745ECE /* Build configuration list for PBXNativeTarget "iOS_Architecture_OCUITests" */;
 			buildPhases = (
+				F39C1D4587CD48A3930B9C14 /* [CP] Check Pods Manifest.lock */,
 				AA29659120EA270300745ECE /* Sources */,
 				AA29659220EA270300745ECE /* Frameworks */,
 				AA29659320EA270300745ECE /* Resources */,
@@ -489,7 +611,6 @@
 				AA29658220EA270300745ECE /* LaunchScreen.storyboard in Resources */,
 				AA94347520EB552200C242FD /* MVVMTableViewController.xib in Resources */,
 				AA94344520EB008B00C242FD /* MVCTableViewCell.xib in Resources */,
-				AA94346C20EB52D400C242FD /* Info.plist in Resources */,
 				AA29657F20EA270300745ECE /* Assets.xcassets in Resources */,
 				AA29657D20EA270100745ECE /* Main.storyboard in Resources */,
 				AA94344020EAFECF00C242FD /* MVCViewController.xib in Resources */,
@@ -512,6 +633,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		052D26B8979D7EE7812E9897 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS_Architecture_OC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B33AE94D8A1AE65244044A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iOS_Architecture_OC/Pods-iOS_Architecture_OC-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS_Architecture_OC/Pods-iOS_Architecture_OC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F39C1D4587CD48A3930B9C14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS_Architecture_OCUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5D246D98A185CF78BB96E61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS_Architecture_OCTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AA29656E20EA270100745ECE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -519,15 +715,14 @@
 			files = (
 				AA94345C20EB524C00C242FD /* Clock.m in Sources */,
 				AA94344820EB072600C242FD /* MVCModel.m in Sources */,
+				AA94349320EBA8C000C242FD /* LoginViewModel.m in Sources */,
 				AA94344420EB008B00C242FD /* MVCTableViewCell.m in Sources */,
 				AA94347020EB548300C242FD /* ClockViewController.m in Sources */,
 				AA94346220EB526700C242FD /* ClockLayer.m in Sources */,
 				AA29657A20EA270100745ECE /* ViewController.m in Sources */,
 				AA29658520EA270300745ECE /* main.m in Sources */,
-				AA94346A20EB52D400C242FD /* NSObject+FBKVOController.m in Sources */,
 				AA94347A20EB5ED300C242FD /* BaseNavigationController.m in Sources */,
 				AA94346120EB526700C242FD /* ClockView.m in Sources */,
-				AA94346B20EB52D400C242FD /* FBKVOController.m in Sources */,
 				AA94347420EB552200C242FD /* MVVMTableViewController.m in Sources */,
 				AA29657720EA270100745ECE /* AppDelegate.m in Sources */,
 				AA94343F20EAFECF00C242FD /* MVCViewController.m in Sources */,
@@ -697,13 +892,14 @@
 		};
 		AA29659F20EA270300745ECE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D18071C50856701B048E5FF /* Pods-iOS_Architecture_OC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5U5763E89G;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/iOS_Architecture_OC/PrefixHeader.pch";
 				INFOPLIST_FILE = iOS_Architecture_OC/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -716,13 +912,14 @@
 		};
 		AA2965A020EA270300745ECE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 792F641989E73A2EB2FBD43A /* Pods-iOS_Architecture_OC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5U5763E89G;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/iOS_Architecture_OC/PrefixHeader.pch";
 				INFOPLIST_FILE = iOS_Architecture_OC/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -735,6 +932,7 @@
 		};
 		AA2965A220EA270300745ECE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC153DA591156352BAC98F4E /* Pods-iOS_Architecture_OCTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -754,6 +952,7 @@
 		};
 		AA2965A320EA270300745ECE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E8A06B0DA8D4FA9773AA46A /* Pods-iOS_Architecture_OCTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -773,6 +972,7 @@
 		};
 		AA2965A520EA270300745ECE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38A194DF2B4E212A631BDBCE /* Pods-iOS_Architecture_OCUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5U5763E89G;
@@ -791,6 +991,7 @@
 		};
 		AA2965A620EA270300745ECE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA8B378ECA5CE0E048600739 /* Pods-iOS_Architecture_OCUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5U5763E89G;
