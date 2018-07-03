@@ -30,6 +30,10 @@
     [self.tableView reloadData];
 }
 
+-(void)dealloc {
+    DLOG_METHOD
+}
+
 #pragma mark - Load Data
 - (void)loadData {
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];

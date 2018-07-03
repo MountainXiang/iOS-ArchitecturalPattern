@@ -1,0 +1,44 @@
+//
+//  PrefixHeader.pch
+//  iOS_Architecture_OC
+//
+//  Created by MountainX on 2018/7/3.
+//  Copyright © 2018年 MTX Software Technology Co.,Ltd. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//#ifndef __IPHONE_5_0
+//#warning "This project uses features only available in iOS SDK 5.0 and later."
+//#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+/* 定义日志宏*/
+#ifdef DEBUG
+/*
+ __PRETTY_FUNCTION__  非标准宏。这个宏比__FUNCTION__功能更强,  若用g++编译C++程序, __FUNCTION__只能输出类的成员名,不会输出类名;而__PRETTY_FUNCTION__则会以 <return-type>  <class-name>::<member-function-name>(<parameters-list>) 的格式输出成员函数的详悉信息(注: 只会输出parameters-list的形参类型, 而不会输出形参名).若用gcc编译C程序,__PRETTY_FUNCTION__跟__FUNCTION__的功能相同.
+ 
+ __LINE__ 宏在预编译时会替换成当前的行号
+ 
+ __VA_ARGS__ 是一个可变参数的宏，很少人知道这个宏，这个可变参数的宏是新的C99规范中新增的，目前似乎只有gcc支持（VC6.0的编译器不支持）。宏前面加上##的作用在于，当可变参数的个数为0时，这里的##起到把前面多余的","去掉的作用,否则会编译出错
+ */
+//#define DLOG(...) NSLog(__VA_ARGS__);
+#define DLOG(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#define DLOG_METHOD NSLog(@"%s",__func__);
+#define DERROR(fmt,...) NSLog((@"error:%s %d " fmt),__FUNCTION__,__LINE__,##__VA_ARGS__);
+#else
+
+#define DLOG(...) ;
+#define DLOG_METHOD ;
+#define DERROR(fmt,...) ;
+#endif
+
+#endif /* PrefixHeader_pch */

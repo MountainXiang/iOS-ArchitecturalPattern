@@ -8,13 +8,12 @@
 
 #import "ViewController.h"
 #import "MVCViewController.h"
+#import "MVVMTableViewController.h"
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-
 @property (nonatomic, strong)NSArray *titleArray;
-
 @property (nonatomic, strong)NSArray *subTitleArray;
 
 @end
@@ -75,7 +74,8 @@ static NSString *cellID = @"cellIdentifier";
             break;
         case 2:
         {
-            
+            MVVMTableViewController *vc = [[MVVMTableViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         default:

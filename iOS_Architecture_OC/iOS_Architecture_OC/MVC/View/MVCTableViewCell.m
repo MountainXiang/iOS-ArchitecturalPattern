@@ -36,20 +36,27 @@ static NSString *cellID = @"MVCTableViewCell";
 - (void)setModel:(MVCModel *)model {
     _model = model;
     
-    _logoIv.image = [UIImage imageNamed:model.logo];
+    NSBundle *bundle = [NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"MVC" ofType:@"bundle"]];
+    
+    NSString *logoImgPath = [bundle pathForResource:model.logo ofType:@"png"];
+    UIImage *logo = [UIImage imageWithContentsOfFile:logoImgPath];
+    _logoIv.image = logo;
+    
+    NSString *picturePath = [bundle pathForResource:model.picture ofType:@"png"];
+    UIImage *picture = [UIImage imageWithContentsOfFile:picturePath];
+    _pictureIv.image = picture;
+    
     _nameLabel.text = model.name;
     _timeStampLabel.text = model.timeStamp;
-    UIImage *picure = [UIImage imageNamed:model.picture];
-    _pictureIv.image = picure;
     
     CGFloat pictureMaxWidth = [UIScreen mainScreen].bounds.size.width - 2 * _pictureLeadingConstraint.constant;
-    if (picure.size.width > pictureMaxWidth) {
+    if (picture.size.width > pictureMaxWidth) {
         _pictureWidthConstraint.constant = pictureMaxWidth;
     } else {
-        _pictureWidthConstraint.constant = picure.size.width;
+        _pictureWidthConstraint.constant = picture.size.width;
     }
     
-    CGFloat pictureHeight = _pictureWidthConstraint.constant / picure.size.width * picure.size.height;
+    CGFloat pictureHeight = _pictureWidthConstraint.constant / picture.size.width * picture.size.height;
     CGFloat pictureMaxHeight = [UIScreen mainScreen].bounds.size.height / 3 * 2;
     _pictureHeightConstraint.constant = pictureHeight > pictureMaxHeight ? pictureMaxHeight : pictureHeight;
 }
