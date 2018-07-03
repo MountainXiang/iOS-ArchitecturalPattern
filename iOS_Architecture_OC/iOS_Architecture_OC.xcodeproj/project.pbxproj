@@ -15,6 +15,11 @@
 		AA29658520EA270300745ECE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA29658420EA270300745ECE /* main.m */; };
 		AA29658F20EA270300745ECE /* iOS_Architecture_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA29658E20EA270300745ECE /* iOS_Architecture_OCTests.m */; };
 		AA29659A20EA270300745ECE /* iOS_Architecture_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA29659920EA270300745ECE /* iOS_Architecture_OCUITests.m */; };
+		AA94343F20EAFECF00C242FD /* MVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA94343D20EAFECF00C242FD /* MVCViewController.m */; };
+		AA94344020EAFECF00C242FD /* MVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA94343E20EAFECF00C242FD /* MVCViewController.xib */; };
+		AA94344420EB008B00C242FD /* MVCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA94344220EB008B00C242FD /* MVCTableViewCell.m */; };
+		AA94344520EB008B00C242FD /* MVCTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA94344320EB008B00C242FD /* MVCTableViewCell.xib */; };
+		AA94344820EB072600C242FD /* MVCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA94344720EB072600C242FD /* MVCModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,14 @@
 		AA29659520EA270300745ECE /* iOS_Architecture_OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_Architecture_OCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA29659920EA270300745ECE /* iOS_Architecture_OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Architecture_OCUITests.m; sourceTree = "<group>"; };
 		AA29659B20EA270300745ECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA94343C20EAFECF00C242FD /* MVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVCViewController.h; sourceTree = "<group>"; };
+		AA94343D20EAFECF00C242FD /* MVCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCViewController.m; sourceTree = "<group>"; };
+		AA94343E20EAFECF00C242FD /* MVCViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MVCViewController.xib; sourceTree = "<group>"; };
+		AA94344120EB008B00C242FD /* MVCTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVCTableViewCell.h; sourceTree = "<group>"; };
+		AA94344220EB008B00C242FD /* MVCTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCTableViewCell.m; sourceTree = "<group>"; };
+		AA94344320EB008B00C242FD /* MVCTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MVCTableViewCell.xib; sourceTree = "<group>"; };
+		AA94344620EB072600C242FD /* MVCModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVCModel.h; sourceTree = "<group>"; };
+		AA94344720EB072600C242FD /* MVCModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +114,9 @@
 		AA29657420EA270100745ECE /* iOS_Architecture_OC */ = {
 			isa = PBXGroup;
 			children = (
-				AA2965AF20EA275100745ECE /* MVVM */,
-				AA2965AB20EA273200745ECE /* MVP */,
 				AA2965A720EA271400745ECE /* MVC */,
+				AA2965AB20EA273200745ECE /* MVP */,
+				AA2965AF20EA275100745ECE /* MVVM */,
 				AA29657520EA270100745ECE /* AppDelegate.h */,
 				AA29657620EA270100745ECE /* AppDelegate.m */,
 				AA29657820EA270100745ECE /* ViewController.h */,
@@ -148,6 +161,8 @@
 		AA2965A820EA271D00745ECE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AA94344620EB072600C242FD /* MVCModel.h */,
+				AA94344720EB072600C242FD /* MVCModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -155,6 +170,9 @@
 		AA2965A920EA272800745ECE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				AA94344120EB008B00C242FD /* MVCTableViewCell.h */,
+				AA94344220EB008B00C242FD /* MVCTableViewCell.m */,
+				AA94344320EB008B00C242FD /* MVCTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -162,6 +180,9 @@
 		AA2965AA20EA272D00745ECE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				AA94343C20EAFECF00C242FD /* MVCViewController.h */,
+				AA94343D20EAFECF00C242FD /* MVCViewController.m */,
+				AA94343E20EAFECF00C242FD /* MVCViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -332,8 +353,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA29658220EA270300745ECE /* LaunchScreen.storyboard in Resources */,
+				AA94344520EB008B00C242FD /* MVCTableViewCell.xib in Resources */,
 				AA29657F20EA270300745ECE /* Assets.xcassets in Resources */,
 				AA29657D20EA270100745ECE /* Main.storyboard in Resources */,
+				AA94344020EAFECF00C242FD /* MVCViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,9 +381,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA94344820EB072600C242FD /* MVCModel.m in Sources */,
+				AA94344420EB008B00C242FD /* MVCTableViewCell.m in Sources */,
 				AA29657A20EA270100745ECE /* ViewController.m in Sources */,
 				AA29658520EA270300745ECE /* main.m in Sources */,
 				AA29657720EA270100745ECE /* AppDelegate.m in Sources */,
+				AA94343F20EAFECF00C242FD /* MVCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
