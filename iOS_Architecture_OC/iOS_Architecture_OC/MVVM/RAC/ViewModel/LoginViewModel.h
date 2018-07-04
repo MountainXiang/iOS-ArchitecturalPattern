@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface LoginViewModel : NSObject
+@interface LoginViewModel : NSObject <FKViewModelProtocol>
 
 #pragma mark - 业务数据
 /**
@@ -20,6 +20,11 @@
  密码
  */
 @property (nonatomic, copy)NSString *password;
+
+/**
+ 判断是否可以登录
+ */
+@property (nonatomic, assign) BOOL isLoginEnable;
 
 #pragma mark - 命令
 /**

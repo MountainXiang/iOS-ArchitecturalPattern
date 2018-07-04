@@ -8,6 +8,7 @@
 
 #import "MVVMTableViewController.h"
 #import "ClockViewController.h"
+#import "LoginViewController.h"
 
 @interface MVVMTableViewController ()
 
@@ -139,7 +140,8 @@ static NSString *cellReuseIdentifier = @"MVVMCellIdentifier";
             break;
         case 5:
         {
-            
+            LoginViewController *vc = [[LoginViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         default:

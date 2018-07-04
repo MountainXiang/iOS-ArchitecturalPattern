@@ -12,6 +12,19 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-
 @end
 
+#pragma mark - 系统适配
+@interface AppDelegate(Adaption)
+- (void)configAdaption;
+@end
+
+#pragma mark - 初始化 SVProgressHUD 配置
+@interface AppDelegate (SVProgressHUD)
+- (void)configSVProgressHUD;
+@end
+
+#pragma mark - YTKNetworking 接口地址配置
+@interface AppDelegate(NetworkApiEnv)
+- (void)configNetworkApiEnv;
+@end
