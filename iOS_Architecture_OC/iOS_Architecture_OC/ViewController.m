@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "MVCViewController.h"
+#import "MVPViewController.h"
 #import "MVVMTableViewController.h"
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
@@ -69,7 +70,8 @@ static NSString *cellID = @"cellIdentifier";
             break;
         case 1:
         {
-            
+            MVPViewController *vc = [[MVPViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         case 2:

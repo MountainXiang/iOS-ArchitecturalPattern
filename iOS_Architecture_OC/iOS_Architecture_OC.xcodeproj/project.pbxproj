@@ -53,6 +53,11 @@
 		AA94347720EB59F700C242FD /* MVC.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA94347620EB59F700C242FD /* MVC.bundle */; };
 		AA94347A20EB5ED300C242FD /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA94347920EB5ED300C242FD /* BaseNavigationController.m */; };
 		AA94349320EBA8C000C242FD /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA94349220EBA8C000C242FD /* LoginViewModel.m */; };
+		AAFEC6EF20EDEFEB003D5855 /* MVPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFEC6EE20EDEFEB003D5855 /* MVPViewController.m */; };
+		AAFEC6F220EDF457003D5855 /* MVPModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFEC6F120EDF457003D5855 /* MVPModel.m */; };
+		AAFEC6F520EDF47E003D5855 /* MVPPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFEC6F420EDF47E003D5855 /* MVPPresenter.m */; };
+		AAFEC6FC20EDF840003D5855 /* MVPNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFEC6FB20EDF840003D5855 /* MVPNetwork.m */; };
+		AAFEC6FF20EE078B003D5855 /* LeeSin.png in Resources */ = {isa = PBXBuildFile; fileRef = AAFEC6FE20EE078B003D5855 /* LeeSin.png */; };
 		ACAB5FB422D14C724B5C633B /* libPods-iOS_Architecture_OCUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7920F064A371555480F23F56 /* libPods-iOS_Architecture_OCUITests.a */; };
 /* End PBXBuildFile section */
 
@@ -163,6 +168,16 @@
 		AA94347920EB5ED300C242FD /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		AA94349120EBA8C000C242FD /* LoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
 		AA94349220EBA8C000C242FD /* LoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
+		AAFEC6ED20EDEFEB003D5855 /* MVPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPViewController.h; sourceTree = "<group>"; };
+		AAFEC6EE20EDEFEB003D5855 /* MVPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPViewController.m; sourceTree = "<group>"; };
+		AAFEC6F020EDF457003D5855 /* MVPModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPModel.h; sourceTree = "<group>"; };
+		AAFEC6F120EDF457003D5855 /* MVPModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPModel.m; sourceTree = "<group>"; };
+		AAFEC6F320EDF47E003D5855 /* MVPPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPPresenter.h; sourceTree = "<group>"; };
+		AAFEC6F420EDF47E003D5855 /* MVPPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPPresenter.m; sourceTree = "<group>"; };
+		AAFEC6F620EDF500003D5855 /* MVPProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPProtocol.h; sourceTree = "<group>"; };
+		AAFEC6FA20EDF840003D5855 /* MVPNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPNetwork.h; sourceTree = "<group>"; };
+		AAFEC6FB20EDF840003D5855 /* MVPNetwork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPNetwork.m; sourceTree = "<group>"; };
+		AAFEC6FE20EE078B003D5855 /* LeeSin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LeeSin.png; sourceTree = "<group>"; };
 		AD37351FA1F36F0B72512E83 /* libPods-iOS_Architecture_OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS_Architecture_OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA8B378ECA5CE0E048600739 /* Pods-iOS_Architecture_OCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Architecture_OCUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Architecture_OCUITests/Pods-iOS_Architecture_OCUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DC153DA591156352BAC98F4E /* Pods-iOS_Architecture_OCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Architecture_OCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Architecture_OCTests/Pods-iOS_Architecture_OCTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -315,6 +330,8 @@
 		AA2965AB20EA273200745ECE /* MVP */ = {
 			isa = PBXGroup;
 			children = (
+				AAFEC6FD20EE077E003D5855 /* Resources */,
+				AAFEC6F920EDF7F7003D5855 /* Api */,
 				AA2965AE20EA273F00745ECE /* Presenter */,
 				AA2965AD20EA273B00745ECE /* View */,
 				AA2965AC20EA273700745ECE /* Model */,
@@ -325,6 +342,8 @@
 		AA2965AC20EA273700745ECE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AAFEC6F020EDF457003D5855 /* MVPModel.h */,
+				AAFEC6F120EDF457003D5855 /* MVPModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -332,6 +351,8 @@
 		AA2965AD20EA273B00745ECE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				AAFEC6ED20EDEFEB003D5855 /* MVPViewController.h */,
+				AAFEC6EE20EDEFEB003D5855 /* MVPViewController.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -339,6 +360,9 @@
 		AA2965AE20EA273F00745ECE /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				AAFEC6F620EDF500003D5855 /* MVPProtocol.h */,
+				AAFEC6F320EDF47E003D5855 /* MVPPresenter.h */,
+				AAFEC6F420EDF47E003D5855 /* MVPPresenter.m */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -667,6 +691,23 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		AAFEC6F920EDF7F7003D5855 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				AAFEC6FA20EDF840003D5855 /* MVPNetwork.h */,
+				AAFEC6FB20EDF840003D5855 /* MVPNetwork.m */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		AAFEC6FD20EE077E003D5855 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AAFEC6FE20EE078B003D5855 /* LeeSin.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		DEE1113CFDEDFB3222E7635B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -800,6 +841,7 @@
 				AA73C6F920ECA2200064B820 /* eyes_open@2x.png in Resources */,
 				AA73C6FB20ECA2200064B820 /* eyes_close.png in Resources */,
 				AA29657D20EA270100745ECE /* Main.storyboard in Resources */,
+				AAFEC6FF20EE078B003D5855 /* LeeSin.png in Resources */,
 				AA73C6F820ECA2200064B820 /* eyes_open.png in Resources */,
 				AA94344020EAFECF00C242FD /* MVCViewController.xib in Resources */,
 			);
@@ -910,9 +952,11 @@
 				AA94346220EB526700C242FD /* ClockLayer.m in Sources */,
 				AA29657A20EA270100745ECE /* ViewController.m in Sources */,
 				AA73C71B20ECCEBA0064B820 /* UIViewController+NonBase.m in Sources */,
+				AAFEC6FC20EDF840003D5855 /* MVPNetwork.m in Sources */,
 				AA73C6D820EC610F0064B820 /* UIImage+Helper.m in Sources */,
 				AA29658520EA270300745ECE /* main.m in Sources */,
 				AA94347A20EB5ED300C242FD /* BaseNavigationController.m in Sources */,
+				AAFEC6F520EDF47E003D5855 /* MVPPresenter.m in Sources */,
 				AA73C6FF20ECA27F0064B820 /* LoginViewController.m in Sources */,
 				AA73C6D120EC5F1A0064B820 /* SVProgressHUD+Helper.m in Sources */,
 				AA94346120EB526700C242FD /* ClockView.m in Sources */,
@@ -921,6 +965,8 @@
 				AA73C71720ECCEBA0064B820 /* FKViewModelIntercepter.m in Sources */,
 				AA73C71A20ECCEBA0064B820 /* FKViewControllerIntercepter.m in Sources */,
 				AA94347420EB552200C242FD /* MVVMTableViewController.m in Sources */,
+				AAFEC6EF20EDEFEB003D5855 /* MVPViewController.m in Sources */,
+				AAFEC6F220EDF457003D5855 /* MVPModel.m in Sources */,
 				AA73C6DC20EC67590064B820 /* CustomedYTKRequest.m in Sources */,
 				AA73C6E320EC69990064B820 /* FuctionDefine.m in Sources */,
 				AA73C71620ECCEBA0064B820 /* NSObject+NonBase.m in Sources */,

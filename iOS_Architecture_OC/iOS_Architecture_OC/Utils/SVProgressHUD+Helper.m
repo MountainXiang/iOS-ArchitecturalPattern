@@ -58,7 +58,6 @@ static const NSTimeInterval kMaxShowTime = 5.0f;
 /// 显示纯文本
 + (void)fk_dispalyMsgWithStatus:(NSString *)status
 {
-    //每个字0.3s, 最低3秒
     NSTimeInterval showTime = [SVProgressHUD _showTimeWithStatus:status];
     [SVProgressHUD setMinimumDismissTimeInterval:showTime];
     [SVProgressHUD showImage:nil status:status];
@@ -67,7 +66,6 @@ static const NSTimeInterval kMaxShowTime = 5.0f;
 /// 显示加载圈 加文本
 + (void)fk_dispalyLoadingMsgWithStatus:(NSString *)status
 {
-    //每个字0.3s, 最低3秒
     NSTimeInterval showTime = [SVProgressHUD _showTimeWithStatus:status];
     [SVProgressHUD setMinimumDismissTimeInterval:showTime];
     [SVProgressHUD showImage:nil status:status];
@@ -93,8 +91,8 @@ static const NSTimeInterval kMaxShowTime = 5.0f;
     if (!status) {
         return kMaxShowTime;
     }
-    // 每个字 0.3s 最低三秒, 最高 kMaxShowTime
-    return MIN(MAX(status.length * 0.3, 3.0f), kMaxShowTime);
+    // 每个字 0.2s 最低1秒, 最高 kMaxShowTime
+    return MIN(MAX(status.length * 0.2, 1.0f), kMaxShowTime);
 }
 
 @end

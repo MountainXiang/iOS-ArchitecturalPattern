@@ -20,7 +20,9 @@
             return [[[request rac_signal] doNext:^(id  _Nullable x) {
                 //登录成功
 //                [USER_DEFAULT setBool:YES forKey:UD_KEY_LOGIN];
-                [SVProgressHUD fk_displaySuccessWithStatus:@"登录成功"];
+                dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                    [SVProgressHUD fk_displaySuccessWithStatus:@"登录成功"];
+                });
             }] materialize];
         }];
     }
