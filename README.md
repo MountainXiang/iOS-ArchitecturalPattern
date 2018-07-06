@@ -1,2 +1,2 @@
 # iOS-ArchitecturalPattern
-Demo for iOS architectural pattern for MVC,MVP and MVVM.
+Demo for iOS architectural pattern of MVC,MVP and MVVM.
