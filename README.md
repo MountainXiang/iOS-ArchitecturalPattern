@@ -529,33 +529,63 @@ RACSubject使用步骤：
 > 参考
 
 [Concepts in Objective-C Programming](https://developer.apple.com/library/archive/documentation/General/Conceptual/CocoaEncyclopedia/Model-View-Controller/Model-View-Controller.html)
+
 [杂谈: MVC/MVP/MVVM](https://www.jianshu.com/p/eedbc820d40a)
+
 [iOS - MVC 架构模式](https://www.cnblogs.com/QianChia/p/5771082.html)
+
 [8 Patterns to Help You Destroy Massive View Controller](http://khanlou.com/2014/09/8-patterns-to-help-you-destroy-massive-view-controller/?utm_source=wanqu.co&utm_campaign=Wanqu+Daily&utm_medium=social)
+
 [iOS基于MVC的项目重构总结](http://www.cocoachina.com/ios/20160519/16346.html)
+
 [再谈MVP模式](http://www.cocoachina.com/ios/20170320/18927.html)
+
 [大话MVP](https://www.cnblogs.com/artech/archive/2010/04/12/1710681.html)
+
 [Design Rules for Model-View-Presenter](https://www.cnblogs.com/artech/archive/2010/04/12/1710337.html)
+
 [被误解的 MVC 和被神化的 MVVM](http://blog.devtang.com/2015/11/02/mvc-and-mvvm/ "被误解的 MVC 和被神化的 MVVM")
+
 [iOS架构模式——MV(X)的理解与实战](https://www.jianshu.com/p/c19969c97a4a)
+
 [iOS 关于MVVM Without ReactiveCocoa设计模式的那些事](https://www.jianshu.com/p/db8400e1d40e)
+
 [iOS MVVM+RAC 从框架到实战](https://www.jianshu.com/p/3beb21d5def2)
+
 [iOS-ReactiveCocoa(RAC)的初步了解以及基本使用](https://blog.csdn.net/Mazy_ma/article/details/52210952)
+
 [ReactiveCocoa操作方法(过滤，秩序,时间，重复)](https://blog.csdn.net/u013232867/article/details/51532715)
+
 [ReactiveCocoa vs RxSwift - pros and cons?](https://stackoverflow.com/questions/32542846/reactivecocoa-vs-rxswift-pros-and-cons)
+
 [MVVM奇葩说](http://www.cocoachina.com/ios/20160520/16004.html)
+
 [面向协议的 MVVM 架构介绍](https://realm.io/cn/news/doios-natasha-murashev-protocol-oriented-mvvm/)
+
 [MVVM With ReactiveCocoa](http://www.cocoachina.com/ios/20160330/15823.html)
+
 [更轻量的 View Controllers](https://www.objc.io/issue-1/lighter-view-controllers.html)
+
 [ReactiveCocoa 和 MVVM 入门](http://yulingtianxia.com/blog/2015/05/21/ReactiveCocoa-and-MVVM-an-Introduction/)
+
 [MVVM 介绍](http://objccn.io/issue-13-1/)
+
 [写给iOS小白的MVVM教程(序)](http://www.ios122.com/2015/10/mvvm_start/)
+
 [多方位全面解析：如何正确地写好一个界面](http://ios.jobbole.com/83657/)
+
 [iOS应用架构谈 view层的组织和调用方案](http://www.cocoachina.com/ios/20150525/11919.html)
+
 [用Model-View-ViewModel构建iOS App](http://www.cocoachina.com/ios/20140716/9152.html)
+
 [浅谈iOS中MVVM的架构设计与团队协作](http://www.cocoachina.com/ios/20150122/10987.html)
+
 [一次简单的 ViewModel 实践](http://bifidy.net/index.php/407)
+
 [不要把ViewController变成处理tableView的"垃圾桶"](http://www.cocoachina.com/ios/20151218/14743.html)
+
 [实践干货！猿题库 iOS 客户端架构设计](http://www.cocoachina.com/ios/20160108/14911.html)
+
 [iOS架构实践干货：AOP替代基类 + MVVM + ReactiveObjC + JLRoutes组件化](https://www.jianshu.com/p/921dd65e79cb)
+
 [iOS架构模式-揭秘MVC,MVP,MVVM和VIPER](https://blog.csdn.net/cuibo1123/article/details/50681389)
