@@ -2,8 +2,8 @@
 //  FKViewIntercepter.h
 //  FXXKBaseMVVM
 //
-//  Created by 梁宪松 on 2017/12/10.
-//  Copyright © 2017年 madao. All rights reserved.
+//  Created by MountainX on 2018/7/4.
+//  Copyright © 2018年 MTX Software Technology Co.,Ltd. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
