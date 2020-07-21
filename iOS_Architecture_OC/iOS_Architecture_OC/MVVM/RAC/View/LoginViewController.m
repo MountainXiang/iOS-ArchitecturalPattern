@@ -20,6 +20,8 @@
 
 @property (nonatomic, strong)LoginViewModel *loginVM;
 
+@property (nonatomic, strong) UIGestureRecognizer *tap;
+
 
 @end
 
@@ -34,6 +36,9 @@
     
     [self.loginBtn setBackgroundImage:[UIImage imageWithColor:HEX_RGB(0x0177D7)] forState:UIControlStateNormal];
     [self.loginBtn setBackgroundImage:[UIImage imageWithColor:[HEX_RGB(0x0177D7) colorWithAlphaComponent:0.3] ] forState:UIControlStateDisabled];
+    
+    self.tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTap:)];
+    [self.view addGestureRecognizer:self.tap];
 }
 
 - (void)dealloc {
@@ -169,6 +174,12 @@
 - (void)fk_configNavigationForController {
     
 }
+
+#pragma mark - Events
+- (void)handleTap:(UITapGestureRecognizer *)sender {
+    [self.view endEditing:YES];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
